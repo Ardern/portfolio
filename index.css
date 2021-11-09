@@ -63,4 +63,65 @@ nav{
     padding: 20px 0px;
     
 }
-  
+  /* GALLERY SECTION */
+     
+  * {
+      box-sizing: border-box;
+  }
+   
+  body {
+      padding: 15px;
+  }
+   
+  .gallery {
+      max-width: 1200px;
+      margin: auto;
+  }
+   
+  h1 {
+      color: orange;
+      text-align: center;
+  }
+   
+  a {
+      text-decoration: none;
+      color: green;
+  }
+   
+  a:hover {
+      color: orange;
+  }
+   
+  p {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 4;
+      overflow: hidden;
+
+  }
+   
+  .row {
+      margin: 0px -18px;
+      padding: 8px;
+  }
+   
+  .row > .column {
+      padding: 6px;
+  }
+   
+  .gal-items {
+      float: left;
+      width: 25%;
+  }
+   
+  .row:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+   
+  .content {
+      background-color: white;
+      padding: 10px;
+     
+  }
