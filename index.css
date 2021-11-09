@@ -29,3 +29,34 @@ nav{
     background: indianred;
     transition: .5s;
   }
+  /* CSS FOR INTRO */
+  .intro-sec {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.intro img {
+    width: 450px;
+    height: auto;
+    padding: 60px;
+}
+
+.cont {
+    /* width: 100vw; */
+    text-align: center;
+    padding-top: 60px;
+
+}
+.cont h2 {
+    color: green;
+    size: 20px;
+}
+
+.cont p {
+    font-size: 1.3rem;
+    padding: 20px 0px;
+    margin-right: 60px;
+}
+  
